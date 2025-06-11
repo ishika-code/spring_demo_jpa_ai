@@ -1,0 +1,1 @@
+package com.example.spring_demo_jpa_ai;\n\nimport org.junit.Test;\nimport org.junit.runner.RunWith;\nimport org.springframework.boot.test.context.SpringBootTest;\nimport org.springframework.test.context.junit4.SpringRunner;\n\n@RunWith(SpringRunner.class)\n@SpringBootTest\npublic class SpringDemoJpaAiApplicationTests {\n\t@Test\n\tpublic void contextLoads() {\n\t}\n}

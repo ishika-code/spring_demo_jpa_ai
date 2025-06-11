@@ -1,0 +1,1 @@
+package com.example.spring_demo_jpa_ai.repository;\n\nimport com.example.spring_demo_jpa_ai.model.User;\nimport org.springframework.data.jpa.repository.JpaRepository;\nimport org.springframework.stereotype.Repository;\n\n@Repository\npublic interface UserRepository extends JpaRepository<User, Long> {\n\t// Custom query to find inactive users\n\tList<User> findByActiveFalse();\n}
