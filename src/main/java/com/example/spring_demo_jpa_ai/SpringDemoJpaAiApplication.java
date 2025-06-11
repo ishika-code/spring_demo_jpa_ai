@@ -1,0 +1,1 @@
+package com.example.spring_demo_jpa_ai;\n\nimport org.springframework.boot.SpringApplication;\nimport org.springframework.boot.autoconfigure.SpringBootApplication;\n\n@SpringBootApplication\npublic class SpringDemoJpaAiApplication {\n\tpublic static void main(String[] args) {\n\t\tSpringApplication.run(SpringDemoJpaAiApplication.class, args);\n\t}\n}
